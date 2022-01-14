@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://D:/angular/Angular2Spring/Angular2Spring.iml" filepath="D:/angular/Angular2Spring/Angular2Spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/AutoPileBackEnd.iml" filepath="$PROJECT_DIR$/.idea/AutoPileBackEnd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/autopile/autopile.iml" filepath="$PROJECT_DIR$/autopile/autopile.iml" />
+    </modules>
+  </component>
+</project>
