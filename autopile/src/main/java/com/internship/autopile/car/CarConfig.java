@@ -20,7 +20,7 @@ public class CarConfig {
                         "Mercedes",
                         "Vito",
                         1998l,
-                        540l
+                        534l
                 );
 
             Car opel = new Car(
