@@ -8,20 +8,22 @@ import { CarService } from '../car.service';
   templateUrl: './car-entity-details.component.html',
   styleUrls: ['./car-entity-details.component.css']
 })
+
+
 export class CarEntityDetailsComponent implements OnInit {
 
-  id!: number; 
+  id!: number;
   car: Car =  new Car();
-  constructor(private carService: CarService, 
-    private route: ActivatedRoute, 
+  constructor(private carService: CarService,
+    private route: ActivatedRoute,
     private router: Router) { }
 
   ngOnInit(): void {
-    this.id = this.route.snapshot.params['id']; 
-    
+    this.id = this.route.snapshot.params['id'];
+
     this.car = new Car();
     this.carService.getCarById(this.id).subscribe( data  => {
-      this.car = data; 
+      this.car = data;
     });
   }
 
